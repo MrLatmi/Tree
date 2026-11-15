@@ -1,0 +1,44 @@
+digraph G {
+  rankdir=TB;
+  bgcolor="#0a0c10";
+  splines=polyline;
+  nodesep=0.8;
+  ranksep=0.7;
+  node[shape=Mrecord, style=filled, fillcolor="#b82222", color="#4c0000", fontname=Monospace, fontcolor="#65B7B7"];
+  edge[color="#f9f9f7", arrowhead=normal];
+
+  root_info [label="Tree Dump #0 | root \<000001F8A4422A70\>", fillcolor="#1ca8a3", color="#192832", fontcolor="#131515"];
+  root_info -> node_000001F8A4422A70 [color="#1ca8a3"];
+
+ node_000001F8A4422A70 [label="{ addr (000001F8A4422A70) | parent (NIL) | data (Jivoe?) | { <left> L (000001F8A4422EC0) | <right> R (000001F8A4422E60) } }", fontsize=10, fillcolor="#27512e", color="#092604", fontcolor="#65B7B7"];
+  node_000001F8A4422A70 -> node_000001F8A4422EC0 [color="#65B7B7"];
+ node_000001F8A4422EC0 [label="{ addr (000001F8A4422EC0) | parent (000001F8A4422A70) | data (Koshka?) | { <left> L (000001F8A44230D0) | <right> R (000001F8A4422D40) } }", fontsize=10, fillcolor="#27512e", color="#092604", fontcolor="#65B7B7"];
+  node_000001F8A4422EC0 -> node_000001F8A4422A70 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422EC0 -> node_000001F8A44230D0 [color="#65B7B7"];
+ node_000001F8A44230D0 [label="{ addr (000001F8A44230D0) | parent (000001F8A4422EC0) | data (1.5shka) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A44230D0 -> node_000001F8A4422EC0 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422EC0 -> node_000001F8A4422D40 [color="#e06c75"];
+ node_000001F8A4422D40 [label="{ addr (000001F8A4422D40) | parent (000001F8A4422EC0) | data (Vedet matan) | { <left> L (000001F8A4422C80) | <right> R (000001F8A4422BF0) } }", fontsize=10, fillcolor="#27512e", color="#092604", fontcolor="#65B7B7"];
+  node_000001F8A4422D40 -> node_000001F8A4422EC0 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422D40 -> node_000001F8A4422C80 [color="#65B7B7"];
+ node_000001F8A4422C80 [label="{ addr (000001F8A4422C80) | parent (000001F8A4422D40) | data (Vedet  dopi?) | { <left> L (000001F8A4422BC0) | <right> R (000001F8A4422CE0) } }", fontsize=10, fillcolor="#27512e", color="#092604", fontcolor="#65B7B7"];
+  node_000001F8A4422C80 -> node_000001F8A4422D40 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422C80 -> node_000001F8A4422BC0 [color="#65B7B7"];
+ node_000001F8A4422BC0 [label="{ addr (000001F8A4422BC0) | parent (000001F8A4422C80) | data (Scubachevsky) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A4422BC0 -> node_000001F8A4422C80 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422C80 -> node_000001F8A4422CE0 [color="#e06c75"];
+ node_000001F8A4422CE0 [label="{ addr (000001F8A4422CE0) | parent (000001F8A4422C80) | data (Znamenskay) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A4422CE0 -> node_000001F8A4422C80 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422D40 -> node_000001F8A4422BF0 [color="#e06c75"];
+ node_000001F8A4422BF0 [label="{ addr (000001F8A4422BF0) | parent (000001F8A4422D40) | data (Ded) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A4422BF0 -> node_000001F8A4422D40 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422A70 -> node_000001F8A4422E60 [color="#e06c75"];
+ node_000001F8A4422E60 [label="{ addr (000001F8A4422E60) | parent (000001F8A4422A70) | data (Tam est uchebnie capineti?) | { <left> L (000001F8A4422C50) | <right> R (000001F8A4422EF0) } }", fontsize=10, fillcolor="#27512e", color="#092604", fontcolor="#65B7B7"];
+  node_000001F8A4422E60 -> node_000001F8A4422A70 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422E60 -> node_000001F8A4422C50 [color="#65B7B7"];
+ node_000001F8A4422C50 [label="{ addr (000001F8A4422C50) | parent (000001F8A4422E60) | data (Noviy korpus) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A4422C50 -> node_000001F8A4422E60 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+  node_000001F8A4422E60 -> node_000001F8A4422EF0 [color="#e06c75"];
+ node_000001F8A4422EF0 [label="{ addr (000001F8A4422EF0) | parent (000001F8A4422E60) | data (KSP) | { <left> L (NIL) | <right> R (NIL) } }", fontsize=10, fillcolor="#4c036e", color="#31112b", fontcolor="#f9f9f7"];
+  node_000001F8A4422EF0 -> node_000001F8A4422E60 [color="#6c757d", style=dashed, constraint=false, arrowhead=odot];
+}
